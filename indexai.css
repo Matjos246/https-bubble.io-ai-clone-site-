@@ -5,12 +5,14 @@
      box-sizing: border-box;
      /* background:linear-gradient(whitesmoke),(rgb(216, 216, 179)); */
      text-decoration: none;
-     /* line-height: 7em */
+     /* line-height: 70px; */
      font-size: 20px;
-     
 };
 body{
     text-decoration: none;
+}
+container{
+    background-color: #02072F;
 }
 .head{
     width: 100%;
@@ -30,9 +32,9 @@ body{
  
     color: black;
 }
-img{
+/* img{
     border-radius: 50%;
-}
+} */
 .nav2{
     padding: 20px;
     /* margin: 4px; */
@@ -49,9 +51,9 @@ img{
 .nav2 a{
     color:rgb(1, 217, 255);
 }
-img{
+/* img{
     color:rgb(1, 217, 255);
-}
+} */
 .nav2 a:hover{
     color:white;
 }
@@ -114,6 +116,10 @@ button p{
     padding-top: 50px;
 }
  /* 2nd-Card */
+ .card-2{
+    display: flex;
+    padding-top: 10px;
+}
  .Text-2{
     padding:30px;
  }
@@ -125,7 +131,14 @@ button p{
  .Text-2 a{
     color: #ffffff;
  }
+ .logo2{
+    padding-top: 50px;
+}
  /* 3rd-Card */
+ .card-3{
+    display: flex;
+    padding-top: 10px;
+}
  .Text-3{
     padding:30px;
  }
@@ -133,7 +146,15 @@ button p{
     padding: 20px;
     color: darkgrey;
  }
+ .logo3{
+    padding-top: 50px; 
+ }
  /* 4th-Card */
+ .card-4{
+    display: flex;
+    padding-top: 10px;
+}
+
  .Text-4{
     padding:30px;
  }
@@ -141,3 +162,100 @@ button p{
     padding: 20px;
     color: darkgrey;
  }
+ .logo4{
+    padding-top: 50px; 
+ }
+ /* BubbleAI_tools */
+ .BubbleAI_tools {
+    background-color: #02072F; 
+    padding-top: 80px;
+    
+ }
+    .BubbleAI_card{
+        padding-top: 40px;
+        /* display:flex; */
+    }
+ .BubbleAI_tools h1{
+    color: #ffffff;
+    padding-left:240px;
+    font-size: 45px;
+ }
+ #BubbleCardImg_1st{
+    width: auto;
+    height: auto;
+ }
+ .BubbleCard_Text_1st{
+     color: #ffffff;
+
+     padding: 20px;
+
+     height: 35vh;
+     /* background-color: #DCDCFB; */
+     max-width: 100%;
+     background-color: rgba(0, 0, 3, 0.5); 
+     /* opacity: 0.5; */
+     /* background-color:(opacity 0.5) rgba(0, 0, 3, 0.5); */
+ }
+
+ .BubbleCard_Text_1st a{
+    color:#2EAFEF  ;
+ }
+ .BubbleCard_Text_1st a img{
+    color: #ffffff;
+ }
+ .BubbleCard_Text_1st a:hover{
+    color: aliceblue;
+ }
+ /* SecondBubbleCard section */
+ .BubbleCard_Text_2nd{
+     color: #ffffff;
+     padding: 20px;
+   
+     /* background-color: #DCDCFB; */
+     max-width:100%;
+     height: 36vh;
+     background-color: rgba(0, 0, 3, 0.5); 
+     /* opacity: 0.5; */
+     /* background-color:(opacity 0.5) rgba(0, 0, 3, 0.5); */
+
+ }
+
+ .BubbleCard_Text_2nd a{
+    color:#2EAFEF  ;
+   
+
+ }
+ .BubbleCard_Text_2nd a img{
+    color: #ffffff;
+ }
+ .BubbleCard_Text_2nd a:hover{
+    color: aliceblue;
+ }
+ /* Third Bubble_Card */
+ .BubbleCard_Text_3rd{
+     color: #ffffff;
+     padding: 20px;
+   
+     /* background-color: #DCDCFB; */
+     height: 35vh;
+     max-width: 360px;
+     background-color: rgba(0, 0, 3, 0.5); 
+     /* opacity: 0.5; */
+     /* background-color:(opacity 0.5) rgba(0, 0, 3, 0.5); */
+ }
+
+ .BubbleCard_Text_3rd a{
+    color:#2EAFEF  ;
+ }
+ .BubbleCard_Text_3rd a img{
+    color: #ffffff;
+ }
+ .BubbleCard_Text_3rd a:hover{
+    color: aliceblue;
+ }
+ .BubbleAI_card{
+    display: flex;
+   padding: 100px;
+ }
+
+ 
