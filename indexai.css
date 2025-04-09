@@ -10,6 +10,7 @@
 };
 body{
     text-decoration: none;
+    background-color: #02072F;
 }
 container{
     background-color: #02072F;
@@ -29,7 +30,7 @@ container{
 
 .nav1 a{
     padding: 3px;
- 
+   transition: all 5s ease;
     color: black;
 }
 /* img{
@@ -42,7 +43,7 @@ container{
     color: white;
 }
 .nav1 a:hover{
-    color:rgb(4, 2, 116);
+    color:rgb(243, 141, 8)
 }
 .nav2  p{
     padding-left: 150px;
@@ -75,12 +76,12 @@ h1{
     padding:70px 0px;
    
 }
-.btn p {
+.btn a {
     padding: 15px;
     background:linear-gradient(rgb(160, 88, 122),blueviolet);
     color: white;
 }
-button p{
+button a{
     border-radius: 20%;
 }
 .subhead{
@@ -172,26 +173,26 @@ button p{
     
  }
     .BubbleAI_card{
-        padding-top: 40px;
-        /* display:flex; */
+        /* padding-top: 40px; */
+        display:flex;
+         align-items: center;    
     }
  .BubbleAI_tools h1{
     color: #ffffff;
     padding-left:240px;
     font-size: 45px;
  }
- #BubbleCardImg_1st{
-    width: auto;
-    height: auto;
+ .BubbleCardImg_1st img{
+   border-top-left-radius: 7%;
+   border-top-right-radius: 7%;
  }
  .BubbleCard_Text_1st{
      color: #ffffff;
-
-     padding: 20px;
-
+     padding: 15px;
+      
      height: 35vh;
      /* background-color: #DCDCFB; */
-     max-width: 100%;
+     /* width: 100%; */
      background-color: rgba(0, 0, 3, 0.5); 
      /* opacity: 0.5; */
      /* background-color:(opacity 0.5) rgba(0, 0, 3, 0.5); */
@@ -205,6 +206,9 @@ button p{
  }
  .BubbleCard_Text_1st a:hover{
     color: aliceblue;
+ }
+ .FirstBubbleCard{
+   padding-right:20px;
  }
  /* SecondBubbleCard section */
  .BubbleCard_Text_2nd{
@@ -231,14 +235,17 @@ button p{
  .BubbleCard_Text_2nd a:hover{
     color: aliceblue;
  }
+ .SecondBubbleCard{
+  padding-right: 17px;
+ }
  /* Third Bubble_Card */
  .BubbleCard_Text_3rd{
      color: #ffffff;
      padding: 20px;
-   
-     /* background-color: #DCDCFB; */
+   padding-right: 40px;
+     background-color: #DCDCFB;
      height: 35vh;
-     max-width: 360px;
+     width: 360px;
      background-color: rgba(0, 0, 3, 0.5); 
      /* opacity: 0.5; */
      /* background-color:(opacity 0.5) rgba(0, 0, 3, 0.5); */
@@ -254,8 +261,93 @@ button p{
     color: aliceblue;
  }
  .BubbleAI_card{
-    display: flex;
+  /* display: flex; */
    padding: 100px;
  }
+.ThirdBubbleCard{
+ 
+}
+.APILINKIMG{
+   /* width:100%; */
+   background: #02072F; 
+}
+.APILINKIMG img{
+   width:100%;
+}
+.AI_PLUGIN{
+   /* width:auto;
+   height:auto; */
+   background-color: #02072F;
+   padding: 40px;
+   
+}
+.AI_PLUGIN img{
+   width: 80%;
+   margin: 100px;
+   border-radius:2%;
+}
+.AI_tools{
+   background: #02072F;
+   width:100%;  
+}
+
+.AI_TEXT h1{
+   color: #ffff;
+   font-size:41px;
+   padding-left: 230px;
+}
+.AI_SECT{
+   width: 100%;
+   display: flex;
+   padding: 100px;
+   /* display: block; */
+   /* display: inline-flex; */
+   padding-top: 60px;
+}
+.AI_SECT p{
+   background-color:rgba(0, 0, 3, 0.5); 
+   width: 17.4em;
+   color: #ffffff;
+   padding: 35px;
+}
+.AI_SECT  a img{
+   color: #ffffff;
+   width: 30px;
+   height: 2vh;
+   color: #ffffff;
+}
+.AI_SECT  a{
+   color: rgb(138, 160, 160);
+} 
+.AI_SECT  a:hover{
+   color: #ffffff;
+   text-decoration: underline;
+}
+.sectText_1st p{
+   width: 100%;
+}
+.sect1{
+  /* padding: 50px 100px 50px 70px;  */
+  padding-right: 48px;
+
+}
+.sect2{
+   /* padding: 50px 15px 50px 40px; */
+   padding-right: 37px;
+
+   
+}
+.sect3{
+   /* padding: 50px 100px 50px 40px; */
+ 
+}
+.mediaIcon a img{
+   color: #ffffff;
+   width: 40px;
+   height: 6vh;
+   
+}
+
+
 
  
