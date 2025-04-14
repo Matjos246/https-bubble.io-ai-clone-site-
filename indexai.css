@@ -8,47 +8,91 @@
      /* line-height: 70px; */
      font-size: 20px;
 };
-body{
+/* body{
     text-decoration: none;
     background-color: #02072F;
-}
-container{
+} */
+/* container{
     background-color: #02072F;
-}
+    height: 100vh;
+} */
 .head{
     width: 100%;
-    position: sticky;
-    top: 0;
-    z-index:1000;
+    /* position: sticky; */
+    /* top: 0;
+    z-index:1000; */
 }
 
 .nav1{
-    padding: 15px;
+    padding: 10px;
     background-color: white; 
     display: flex;
+    /* position: sticky; */
+    position: fixed;
+    top: 0;
+    z-index:1000;
+    width:100%;
 }
 
 .nav1 a{
     padding: 3px;
    transition: all 5s ease;
-    color: black;
+    color: black;  
 }
-/* img{
-    border-radius: 50%;
-} */
+.nav1 a:hover{
+   color:rgb(243, 141, 8)
+}
+/* Dropdown container */
+.dropdown{
+   position: relative;
+   display: inline-block;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: #c5cdd1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+   z-index: 1000;
+}
+/* Dropdown links */
+.dropdown-content a {
+   color: black;
+   padding: 10px 16px;
+   text-decoration: none;
+   display: block;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+/* Optional hover effect */
+.dropdown-content a:hover {
+   background-color: #f1f1f1;
+}
+.model{
+   display: none;
+}
+
+img{
+    border-radius: 3%;
+}
+
 .nav2{
-    padding: 20px;
+    padding-block: 50px;
+    max-height:5vh ;
     /* margin: 4px; */
     background-color:#17035E ;
     color: white;
 }
-.nav1 a:hover{
-    color:rgb(243, 141, 8)
-}
 .nav2  p{
-    padding-left: 150px;
-   
+   /* padding-left: 150px;   */
+   padding-inline: 150px;
+   padding-top: 20px;
 }
+
+
 .nav2 a{
     color:rgb(1, 217, 255);
 }
@@ -79,6 +123,7 @@ h1{
 .btn a {
     padding: 15px;
     background:linear-gradient(rgb(160, 88, 122),blueviolet);
+    transition:  0.5s ease;
     color: white;
 }
 button a{
@@ -341,13 +386,128 @@ button a{
    /* padding: 50px 100px 50px 40px; */
  
 }
-.mediaIcon a img{
-   color: #ffffff;
-   width: 40px;
-   height: 6vh;
-   
+.footer_1st{
+   background: #02072F;
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+@keyframes example{
+   from{background-color: #02072F;}
+   to{background-color: #9b9494;}
 }
 
-
-
+.footer_1st h5{
+   color: #ffffff;
+}
+.footer_1st a{
+   color: #9b9494;
+   font-size: medium;
+   
+}
+.Bubble_media{
+   width: 100%;
+   height: 100%;
+   padding-left:15px;
+}
+.logo img{
+  background: #02072F;
+  
+}
+.mediaIcon{
+  
+}
+.mediaIcon a img{
+   color: #ffffff;
+   width: 30px;
+   /* height: 6vh; */
  
+   margin: 10px;
+   display: inline-block;
+   border-radius: 50px;
+
+   
+}
+.About{
+   display: flex;
+   padding-right: 50px;
+   letter-spacing: 2px;
+   line-height:5vh;
+   
+   width: 100%;
+   height: 100%;
+   
+}
+.details a{
+   /* display: block; */
+}
+.details a:hover{
+   color: #ffffff;
+   text-decoration: underline;
+}
+.fifth_column{
+ padding-left: 80px;
+}
+.fourth_column{
+   padding-left: 100px;
+}
+.ThirdBubbleCard{
+   padding-right: 70px;
+}
+.second_column{
+   /* padding-left: 70px;
+   padding-right: 40px; */
+   padding-inline: 60px;
+}
+.first_column{
+   padding-left: 10px;
+}
+
+.Resources .details{
+   /* width: 100%;
+   padding: 0;
+   height: 10px; */
+}
+
+.footer_2nd{
+   background: #02072F;
+   display: flex;
+}
+.details_1st{
+   display: flex;
+   
+}
+.details_1st a{
+  padding-inline: 15px;
+  padding-block: 25px;
+   color: #9b9494;;
+   font-size:15px;
+}
+.details_1st a:hover{
+      color: #ffffff;
+      text-transform: uppercase;
+}
+.details_2nd p{
+   display: flex;
+   color: #9b9494;
+   font-size: medium;
+   /* padding-inline: 10px; */
+   padding-block: 30px;
+   padding-left: 250px;
+} 
+.footer_outskirt{
+   background: #02072F;
+}
+.b_logo{
+   background-color: rgb(21, 75, 224);
+   width:fit-content;
+}
+.b_logo img{
+   width: 15px;
+   position: inherit;
+}
+.b_logo span{
+   color: #ffffff;
+   font-size: medium;
+   /* padding-top: 200px; */
+}
